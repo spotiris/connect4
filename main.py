@@ -54,7 +54,7 @@ if __name__ == "__main__":
                     gui.move(playerID=1, col=col)
                 count += 1
                 if count > MAX_COUNT:
-                    game.result = 'player2 wins by time-out'
+                    game.result = 'player2 wins by consecutive invalid moves'
                     break
                 #time.sleep(WAIT_TIME)
         except:
@@ -89,7 +89,7 @@ if __name__ == "__main__":
                     gui.move(playerID=2, col=col)
                 count += 1
                 if count > MAX_COUNT:
-                    game.result = 'player1 wins by time-out'
+                    game.result = 'player1 wins by consequtive invalid moves'
                     break
                 #time.sleep(WAIT_TIME)
         except:
