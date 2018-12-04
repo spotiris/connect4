@@ -1,6 +1,6 @@
 import numpy as np
 
-class Game( ):
+class Game(object):
 
     def __init__( self, boardSize=[6,7], target=4 ):
         # ---------------------------------------------------
